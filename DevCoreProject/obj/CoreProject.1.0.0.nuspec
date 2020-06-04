@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>CoreProject</id>
+    <version>1.0.0</version>
+    <authors>CoreProject</authors>
+    <owners>CoreProject</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp1.1">
+        <dependency id="Microsoft.AspNetCore" version="1.1.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.NETCore.App" version="1.1.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.ApplicationInsights.AspNetCore" version="2.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/netcoreapp1.1/Properties/launchSettings.json" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\olgi\Desktop\AlternatifOlgac\CoreProjectWebApp\DevCoreProject\bin\Debug\netcoreapp1.1\CoreProject.runtimeconfig.json" target="lib\netcoreapp1.1\CoreProject.runtimeconfig.json" />
+    <file src="C:\Users\olgi\Desktop\AlternatifOlgac\CoreProjectWebApp\DevCoreProject\bin\Debug\netcoreapp1.1\CoreProject.dll" target="lib\netcoreapp1.1\CoreProject.dll" />
+    <file src="C:\Users\olgi\Desktop\AlternatifOlgac\CoreProjectWebApp\DevCoreProject\Properties\launchSettings.json" target="content\Properties\launchSettings.json" />
+    <file src="C:\Users\olgi\Desktop\AlternatifOlgac\CoreProjectWebApp\DevCoreProject\Properties\launchSettings.json" target="contentFiles\any\netcoreapp1.1\Properties\launchSettings.json" />
+  </files>
+</package>
